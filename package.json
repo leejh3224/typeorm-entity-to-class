@@ -1,0 +1,28 @@
+{
+  "name": "typeorm-entity-to-interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "morph.js",
+  "dependencies": {
+    "nodemon": "^1.19.4",
+    "ts-morph": "^4.3.2"
+  },
+  "devDependencies": {
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "transform": "ts-node entity-to-interface.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leejh3224/typeorm-entity-to-class.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leejh3224/typeorm-entity-to-class/issues"
+  },
+  "homepage": "https://github.com/leejh3224/typeorm-entity-to-class#readme"
+}
